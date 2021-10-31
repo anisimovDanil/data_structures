@@ -11,7 +11,7 @@ function Graph(v) {
 }
 
 // для направленных графов
-	function addEdge(v,w) {
+function addEdge(v,w) {
 	this.adj[v].push(w);
 	this.edges++;
 }
